@@ -1,0 +1,38 @@
+/////////////////////
+//Logo
+.logo {
+    height: 3.25rem;
+    margin-left: 2rem;
+}
+
+
+/////////////////////
+// Navigation
+
+
+/////////////////////
+//Legal text
+
+
+
+/////////////////////
+//Gallery
+
+.gallery {
+    display: flex;
+
+    &__photo {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+/////////////////////
+// Paraghraph
+.paragraph:not(:last-of-type) {
+    margin-bottom: 2rem;
+}
+
+
+

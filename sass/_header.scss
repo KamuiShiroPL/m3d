@@ -1,0 +1,55 @@
+
+.header {
+
+    &__menu {
+        .nav-btn {
+            border: none;
+            border-radius: 0;
+        
+            background-color: var(--color-secondary-dark);
+            height: 2px;
+            width: 4.5rem;
+        
+            &::before,
+            &::after {
+                background-color: var(--color-secondary-dark);
+                height: 2px;
+                width: 4.5rem;
+                content: "";
+                display: block;
+            }
+        
+            &::before { transform: translateY(-1.5rem); }
+            &::after { transform: translateY(1.3rem); }
+        
+            @media only screen and (max-width: $bp-large) {
+                margin-top: 0;
+                margin-right: 3rem;
+        
+                &::before { transform: translateY(-1.2rem); }
+                &::after { transform: translateY(1rem); }
+            }
+        }
+    }
+
+    // Temporary Logo
+    &__logo {
+        
+        p {
+            
+            font-size: 45px;
+            font-weight: bold;
+            color: #6699CC;
+            
+        }
+    }
+
+    &__empty {
+        
+    }
+}
+
+
+
+
+
