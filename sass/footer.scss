@@ -5,6 +5,13 @@
         padding: 5rem;
         flex-direction: row;
         justify-content: space-around; 
+
+        border-radius: 5px;
+        border-bottom-left-radius: 0;
+        border-bottom-left-radius: 0;
+
+        z-index: 5;
+
         width: 100%;
         background-color: var(--color-secondary);
     
@@ -12,13 +19,21 @@
         color: white;
         font-weight: 500;
         font-size: 2.5rem;
-    
+
+        .onlineshop {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     &__bottom {
         display: flex;
         justify-content: center;
         width: 100%;
+
+        border-radius: 5px;
+        transform: translateY(-5px);
 
         padding: 1rem;
         background-color: var(--color-secondary-dark);
